@@ -1,5 +1,8 @@
-class Animal {
+class Animal
+{
+private:
     std::string name;
+
 public:
     Animal(std::string _name);
     void Walk();
